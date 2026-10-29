@@ -1,0 +1,10 @@
+{
+  "regularization": 0.01,
+  "alpha": 0.25,
+  "objective": "pairwise_logistic",
+  "features": "original_embeddings",
+  "question_weighting": "equal",
+  "training_subset": "answer_disagreement",
+  "seed": 17,
+  "selection": "three_fold_training_question_cv"
+}

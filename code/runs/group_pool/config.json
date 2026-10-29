@@ -1,0 +1,9 @@
+{
+  "pooling": "baseline",
+  "C": 0.001,
+  "baseline_alpha": 0.25,
+  "feature_mode": "original_plus_centered",
+  "training_subset": "answer_disagreement",
+  "seed": 17,
+  "selection": "three_fold_training_question_cv"
+}

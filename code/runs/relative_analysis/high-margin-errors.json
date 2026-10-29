@@ -1,0 +1,228 @@
+[
+  {
+    "id": "gsm8k:340f1d4d09ae053baf7d49d75fd67feec2908fe38ef84d24966817c555c08fdf",
+    "question": "Lexie is 6 years older than her brother and her sister is twice her age. If Lexie is 8, what is the age difference between her brother and her sister?",
+    "candidate_answers": [
+      "2",
+      "2",
+      "2",
+      "14"
+    ],
+    "correct_candidate_indices": [
+      3
+    ],
+    "selected_index": 1,
+    "correct": false,
+    "distinct_valid_answers": 2,
+    "answer_margin": 3.5100685986318645,
+    "candidate_scores": [
+      1.3357641910230211,
+      1.9196277160173538,
+      -1.3523071751699893,
+      -1.5904408826145104
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Lexie is 8 years old.\n- Lexie is 6 years older than her brother.\n- Lexie is twice the age of her sister.\n\nLet's solve step by step:\n\n1. Lexie's age = 8  \n2. Lexie is 6 years older than her brother → Brother's age = Lexie's age - 6 = $ 8 - 6 = 2 $  \n3. Lexie is twice her sister's age → Sister's age = Lexie's age / 2 = $ 8 / 2 = 4 $\n\nNow, the **age difference between her brother and her sister** is:  \n$$ 2 - 4 = -2 $$\n\nSince age differences are typically expressed as absolute values, the final answer is:\n\n$$ \\boxed{2} $$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- Lexie is **8 years old**.\n- Lexie is **6 years older** than her **brother**.\n- Lexie is **twice her sister's age**.\n\n---\n\n### Step 1: Find the age of Lexie's brother\n\nLexie is 6 years older than her brother:\n\n$$\n\\text{Brother's age} = \\text{Lexie's age} - 6 = 8 - 6 = 2\n$$\n\n---\n\n### Step 2: Find the age of Lexie's sister\n\nLexie is **twice** her sister's age:\n\n$$\n\\text{Sister's age} = \\frac{\\text{Lexie's age}}{2} = \\frac{8}{2} = 4\n$$\n\n---\n\n### Step 3: Find the age difference between brother and sister\n\n$$\n\\text{Age difference} = \\text{Brother's age} - \\text{Sister's age} = 2 - 4 = -2\n$$\n\nSince age differences are always **positive**, the **absolute difference** is:\n\n$$\n\\boxed{2}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{2}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given the following:\n\n- Lexie is **6 years older** than her **brother**.\n- Lexie is **twice** her **sister's age**.\n- Lexie is **8 years old**.\n\n---\n\n### Step 1: Find Lexie's sister's age\n\nSince Lexie is **twice** her sister's age, and Lexie is **8**, then:\n\n$$\n\\text{Sister's age} = \\frac{8}{2} = 4\n$$\n\n---\n\n### Step 2: Find Lexie's brother's age\n\nLexie is **6 years older** than her brother, so:\n\n$$\n\\text{Brother's age} = \\text{Lexie's age} - 6 = 8 - 6 = 2\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{2}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given the following information:\n\n- Lexie is **6 years older** than her **brother**.\n- Lexie is **twice her age**.\n- Lexie is **8 years old**.\n\n---\n\n### Step 1: Find Lexie's brother's age\n\nLexie is **6 years older** than her brother.  \nSo, if Lexie is 8, then her brother is:\n\n$$\n8 - 6 = 2\n$$\n\n---\n\n### Step 2: Find Lexie's sister's age\n\nLexie is **twice her age**.  \nSo, if Lexie is 8, then her sister is:\n\n$$\n2 \\times 8 = 16\n$$\n\n---\n\n### Step 3: Find the age difference between Lexie's brother and sister\n\n$$\n\\text{Age difference} = \\text{Brother's age} - \\text{Sister's age} = 2 - 16 = -14\n$$\n\nSince age differences are typically **positive**, we take the absolute value.\n\n$$\n\\boxed{14}\n$$\n\n---\n\n### ✅ Final Answer: **14**",
+        "code": null,
+        "index": 3
+      }
+    ]
+  },
+  {
+    "id": "gsm8k:fd23d86676d457a5edd2ad70cc5accd6b3e3c36e975e3b85316a5e7990357a36",
+    "question": "Andy walks 50 meters from his house to school. After school, he comes back to the house and goes to the market. If he walks 140 meters in total, how many meters is the distance between the house and the market?",
+    "candidate_answers": [
+      null,
+      "45",
+      "40",
+      null
+    ],
+    "correct_candidate_indices": [
+      2
+    ],
+    "selected_index": 1,
+    "correct": false,
+    "distinct_valid_answers": 2,
+    "answer_margin": 3.4882650238281374,
+    "candidate_scores": [
+      null,
+      2.584178892222714,
+      -0.9040861316054235,
+      null
+    ],
+    "candidates": [
+      {
+        "text": "We are told:\n\n- Andy walks **50 meters** from his house to school.\n- Then he walks **140 meters** in total (including the return trip to the house and the market).\n\nLet the distance between the house and the market be $ x $ meters.\n\n- From house to school: $ 50 $ meters.\n- From school to house: $ 50 $ meters.\n- From house to market: $ x $ meters.\n\nTotal distance walked:  \n$$ 50 + 50 + x = 140 $$\n\n$$ 100 + x = 140 $$\n\n$$ x = 40 $$\n\n### ✅ Final Answer: **40 meters**.",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are told:\n\n- Andy walks **50 meters** from his house to school.\n- Then he **returns** to the house and goes to the **market**.\n- The **total distance** he walks is **140 meters**.\n\nLet the distance between the house and the market be $ x $ meters.\n\n- Andy walks **50 meters** to school.\n- Then he walks **x meters** back home.\n- Then he walks **x meters** to the market.\n\nSo the total distance is:\n\n$$\n50 + x + x = 50 + 2x = 140\n$$\n\nSolving for $ x $:\n\n$$\n2x = 140 - 50 = 90\n$$\n$$\nx = \\frac{90}{2} = 45\n$$\n\n### Final Answer:\n\n$$\n\\boxed{45}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are told that:\n\n- Andy walks **50 meters** from his house to school.\n- Then he **returns** to the house and walks **140 meters** in total.\n\nLet’s denote the distance between the house and the market as $ x $ meters.\n\nSo, the total distance walked is:\n\n$$\n50 + x + 50 = 140\n$$\n\n$$\nx = 140 - 50 - 50 = 40\n$$\n\n### Final Answer:\n\n$$\n\\boxed{40}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are told that:\n\n- Andy walks **50 meters** from his house to school.\n- Then he walks **140 meters** in total, including the return trip to the house and the market.\n\nLet the distance between the house and the market be $ x $ meters.\n\n- The total distance is:  \n  $ 50 + x + 50 = 140 $\n\n- So, $ x = 140 - 50 - 50 = 40 $\n\n### ✅ Final Answer:\n**40 meters**.",
+        "code": null,
+        "index": 3
+      }
+    ]
+  },
+  {
+    "id": "gsm8k:8d3fe5e63aad094e7ab6c20284db6982e5c97d665e50d32b7af477b05f06db16",
+    "question": "Issac has to buy pens and pencils for the upcoming school year. Issac buys 108 writing utensils total. He buys 12 more than 5 times the number of pencils than pens. How many pens did Issac buy?",
+    "candidate_answers": [
+      "16",
+      "92",
+      "92",
+      "16"
+    ],
+    "correct_candidate_indices": [
+      0,
+      3
+    ],
+    "selected_index": 2,
+    "correct": false,
+    "distinct_valid_answers": 2,
+    "answer_margin": 3.3853510776096334,
+    "candidate_scores": [
+      -0.006388781709954938,
+      1.1527023394271145,
+      3.3789622958996786,
+      -1.4897791007920074
+    ],
+    "candidates": [
+      {
+        "text": "Let’s define:\n\n- Let $ p $ be the number of **pens**.\n- Let $ w $ be the number of **writing utensils**.\n\nFrom the problem:\n\n1. Total writing utensils:  \n   $ p + w = 108 $\n\n2. He buys **12 more than 5 times the number of pencils** than pens:  \n   $ 5p + 12 = w $\n\nWe now solve the system of equations:\n\n- $ p + w = 108 $\n- $ w = 5p + 12 $\n\nSubstitute $ w = 5p + 12 $ into the first equation:\n\n$$\np + (5p + 12) = 108\n$$\n\n$$\n6p + 12 = 108\n$$\n\n$$\n6p = 96\n$$\n\n$$\np = 16\n$$\n\n### Final Answer:\n$$\n\\boxed{16}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Let $ p $ be the number of pens and $ c $ be the number of pencils.  \nWe are told:  \n- Total writing utensils: $ p + c = 108 $  \n- He buys 12 more than 5 times the number of pencils than pens:  \n  $ 5c + 12 = p $\n\nWe now solve the system of equations:\n\n1. $ p + c = 108 $  \n2. $ p = 5c + 12 $\n\nSubstitute equation 2 into equation 1:  \n$ 5c + 12 + c = 108 $  \n$ 6c + 12 = 108 $  \n$ 6c = 96 $  \n$ c = 16 $\n\nNow find $ p $:  \n$ p = 5(16) + 12 = 80 + 12 = 92 $\n\n### Final Answer:\n#### $ \\boxed{92} $",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Let’s define:\n\n- Let $ x $ be the number of pens.\n- Let $ y $ be the number of pencils.\n\nWe are told:\n\n1. Total writing utensils: $ x + y = 108 $\n2. He buys 12 more than 5 times the number of pencils than pens: $ 5y + 12 = x $\n\n---\n\nWe now solve the system of equations:\n\n1. $ x + y = 108 $\n2. $ x = 5y + 12 $\n\nSubstitute equation (2) into equation (1):\n\n$$\n(5y + 12) + y = 108\n$$\n\n$$\n6y + 12 = 108\n$$\n\n$$\n6y = 96\n$$\n\n$$\ny = 16\n$$\n\nNow substitute $ y = 16 $ back into equation (2):\n\n$$\nx = 5(16) + 12 = 80 + 12 = 92\n$$\n\n---\n\n### Final Answer:\n$$\n\\boxed{92}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Let’s define:\n\n- Let $ p $ be the number of **pens**.\n- Let $ w $ be the number of **writing utensils** (which includes pens and pencils).\n\nWe are told:\n\n1. Total writing utensils: $ p + w = 108 $\n2. He buys **12 more than 5 times the number of pencils than pens**:  \n   $ 5p = w - 12 $\n\nWe now solve the system of equations:\n\n1. $ p + w = 108 $\n2. $ 5p = w - 12 $\n\n### Step 1: Substitute equation 2 into equation 1\n\nFrom equation 2: $ w = 5p + 12 $\n\nSubstitute into equation 1:\n\n$$\np + (5p + 12) = 108\n$$\n\n$$\n6p + 12 = 108\n$$\n\n$$\n6p = 96\n$$\n\n$$\np = 16\n$$\n\n### ✅ Final Answer:\n\n$$\n\\boxed{16}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ]
+  },
+  {
+    "id": "gsm8k:23362ebace3d656a190008ccbe883f572f150f9ba5f32f98336611e050abb075",
+    "question": "A plumber is trying to decide which of three different jobs he should take to make the most money.  The first job involves fixing three toilets and three sinks at an apartment complex.  The second involves two toilets and five sinks at a different apartment complex.  The third involves fixing one toilet, two showers and three sinks at a third apartment complex.  If the plumber charges $30 to fix a sink, $40 to fix a shower and $50 to fix a toilet, what is the most money the plumber can earn if he can only choose one of these three jobs?",
+    "candidate_answers": [
+      "250",
+      "3",
+      null,
+      "360"
+    ],
+    "correct_candidate_indices": [
+      0
+    ],
+    "selected_index": 1,
+    "correct": false,
+    "distinct_valid_answers": 3,
+    "answer_margin": 3.3140518420956475,
+    "candidate_scores": [
+      -1.7976373903349252,
+      2.108205196312074,
+      null,
+      -1.2058466457835735
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- **Job 1**: 3 toilets, 3 sinks → $30 sink + $40 shower + $50 toilet  \n- **Job 2**: 2 toilets, 5 sinks → $30 sink + $40 shower + $50 toilet  \n- **Job 3**: 1 toilet, 2 showers, 3 sinks → $30 sink + $40 shower + $50 toilet  \n\nWe are to find the **most money** the plumber can earn by choosing **one job**.\n\n### Step-by-step:\n\n1. **Calculate the cost for each job**:\n   - **Job 1**:  \n     $ 3 \\times 50 + 3 \\times 30 + 0 = 150 + 90 = \\$240 $\n   - **Job 2**:  \n     $ 2 \\times 50 + 5 \\times 30 = 100 + 150 = \\$250 $\n   - **Job 3**:  \n     $ 1 \\times 50 + 2 \\times 40 + 3 \\times 30 = 50 + 80 + 90 = \\$220 $\n\n2. **Compare costs**:\n   - Job 1: \\$240  \n   - Job 2: \\$250  \n   - Job 3: \\$220\n\n### ✅ Final Answer:\n\n$$\n\\boxed{250}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given the following information:\n\n- **Job 1**: 3 toilets, 3 sinks  \n- **Job 2**: 2 toilets, 5 sinks  \n- **Job 3**: 1 toilet, 2 showers, 3 sinks  \n\nThe plumber charges:\n\n- $30 per sink  \n- $40 per shower  \n- $50 per toilet  \n\nWe are to find the **maximum** amount the plumber can earn by choosing **one** of the three jobs.\n\n### Step 1: Calculate the total earnings for each job\n\n#### **Job 1**:\n- 3 toilets × $50 = $150  \n- 3 sinks × $30 = $90  \n- **Total earnings**: $150 + $90 = **$240**\n\n#### **Job 2**:\n- 2 toilets × $50 = $100  \n- 5 sinks × $30 = $150  \n- **Total earnings**: $100 + $150 = **$250**\n\n#### **Job 3**:\n- 1 toilet × $50 = $50  \n- 2 showers × $40 = $80  \n- 3 sinks × $30 = $90  \n- **Total earnings**: $50 + $80 + $90 = **$220**\n\n### Step 2: Compare the earnings\n\n- Job 1: $240  \n- Job 2: $250  \n- Job 3: $220\n\n### Step 3: Choose the job with the highest earnings\n\n**Job 2** gives the **most money**.\n\n### Final Answer:\n\n$$\n\\boxed{250}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given the following costs for each job:\n\n- **Fixing 3 toilets and 3 sinks**:  \n  Cost = $30 × 3 + $50 × 3 = $150\n\n- **Fixing 2 toilets and 5 sinks**:  \n  Cost = $30 × 2 + $50 × 2 = $100\n\n- **Fixing 1 toilet, 2 showers, and 3 sinks**:  \n  Cost = $30 × 1 + $40 × 2 + $50 × 3 = $30 + $80 + $150 = $260\n\nNow, we compare the costs of the three jobs:\n\n- Job 1: $150  \n- Job 2: $100  \n- Job 3: $260\n\nThe **most money** the plumber can earn is from **Job 3**.\n\n### Final Answer:  \n**$260**.",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given the following costs for each job:\n\n- **Job 1**: 3 toilets, 3 sinks  \n  - Cost: $30 × 3 (sinks) + $40 × 3 (showers) + $50 × 3 (toilets)  \n  - Total: $90 + $120 + $150 = **$360**\n\n- **Job 2**: 2 toilets, 5 sinks  \n  - Cost: $30 × 2 (sinks) + $40 × 5 (showers) + $50 × 2 (toilets)  \n  - Total: $60 + $200 + $100 = **$360**\n\n- **Job 3**: 1 toilet, 2 showers, 3 sinks  \n  - Cost: $30 × 3 (sinks) + $40 × 2 (showers) + $50 × 1 (toilet)  \n  - Total: $90 + $80 + $50 = **$220**\n\n### Final Answer:\n$$\n\\boxed{360}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ]
+  },
+  {
+    "id": "gsm8k:130853dbe05e918b28a283d4766a8a5165070d46082b33202b9134d6838802b4",
+    "question": "On a particular day, Rose's teacher read the register and realized there were twice as many girls as boys present on that day. The class has 250 students, and all the 140 girls were present. If all the absent students were boys, how many boys were absent that day?",
+    "candidate_answers": [
+      "180",
+      "180",
+      "180",
+      "40"
+    ],
+    "correct_candidate_indices": [
+      3
+    ],
+    "selected_index": 2,
+    "correct": false,
+    "distinct_valid_answers": 2,
+    "answer_margin": 2.941996290720381,
+    "candidate_scores": [
+      0.3825457913548735,
+      0.49000470556337267,
+      1.2942007443314507,
+      -1.6477955463889304
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Total number of students = 250  \n- Number of girls present = 140  \n- The number of girls is **twice** the number of boys present.\n\nLet the number of boys present be $ x $. Then the number of girls present is $ 2x $.\n\nWe are told there are **140 girls present**, so:\n\n$$\n2x = 140 \\Rightarrow x = 70\n$$\n\nSo, the number of boys present is **70**.\n\nSince all the **absent students** are boys, and the total number of students is 250, the number of absent boys is:\n\n$$\n250 - 70 = \\boxed{180}\n$$\n\n### Final Answer: **180**",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given the following information:\n\n- The class has **250 students**.\n- **140 girls** were present.\n- The number of **girls is twice** the number of **boys**.\n- All **absent students** are **boys**.\n\n---\n\n### Step 1: Find the number of boys present\n\nWe are told that there are **140 girls** and the number of **girls is twice the number of boys**.\n\nLet the number of boys present be $ x $.\n\nThen:\n\n$$\n140 = 2x\n\\Rightarrow x = 70\n$$\n\nSo, **70 boys** were present.\n\n---\n\n### Step 2: Find the number of boys absent\n\nSince the total number of students is **250**, and **70** are present, the number of **absent students** is:\n\n$$\n250 - 70 = 180\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{180}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given the following:\n\n- Total number of students = 250  \n- Number of girls present = 140  \n- Number of girls is **twice** as many as boys present.  \n- All the **absent students** are boys.  \n- We are to find how many **boys were absent**.\n\n---\n\n### Step 1: Let the number of boys present be $ x $.\n\nSince there are **twice as many girls as boys present**, we have:\n\n$$\n\\text{Number of girls present} = 2x\n$$\n\nBut we are told the number of girls present is **140**. So:\n\n$$\n2x = 140 \\Rightarrow x = 70\n$$\n\nSo, there are **70 boys present**.\n\n---\n\n### Step 2: Total number of students is 250.\n\n$$\n\\text{Total students} = \\text{Present students} + \\text{Absent students}\n$$\n\n$$\n250 = 70 + \\text{Absent students}\n$$\n\n$$\n\\text{Absent students} = 250 - 70 = 180\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{180}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- Total students = 250  \n- Number of **present** students = 140  \n- Number of **present** girls = 140 (so number of boys = 250 - 140 = 110)  \n- Number of **present** girls is **twice** the number of **present** boys.\n\nLet the number of **present** boys be $ x $. Then the number of **present** girls is $ 2x $.\n\nSince there are 140 present girls, we have:\n$$\n2x = 140 \\Rightarrow x = 70\n$$\n\nSo, the number of **absent** boys is:\n\n$$\n250 - 140 - 70 = 40\n$$\n\n### Final Answer:\n$$\n\\boxed{40}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ]
+  }
+]

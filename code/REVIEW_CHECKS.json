@@ -1,0 +1,22 @@
+{
+  "final_source_hashes_match_original_evaluation_record": true,
+  "final_assets_match_original_evaluation_record": true,
+  "fresh_environment_saved_predictions_equal": true,
+  "uploaded_files_preserved": 81,
+  "added_experiment_sources_reviewed": [
+    "train_group_pool.py",
+    "train_pairwise.py",
+    "train_mlp.py",
+    "group_selector.py",
+    "mlp_selector.py"
+  ],
+  "full_bank_independent_rerun": false,
+  "reason": "No original data directory in supplied archive.",
+  "clean_environment_execution": "User reported; saved prediction equality independently checked.",
+  "test_score_claim": {
+    "correct": 377,
+    "n": 467
+  },
+  "checkpoint_changed": false,
+  "new_experiments_tested_on_test": false
+}

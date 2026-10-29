@@ -1,0 +1,53 @@
+{
+  "selection_split": "validation",
+  "comparison": {
+    "both_correct": 646,
+    "only_vote_correct": 42,
+    "only_linear_correct": 66,
+    "both_wrong": 44,
+    "different_candidate_choices": 574
+  },
+  "experiments": [
+    {
+      "alpha": 0.0,
+      "correct": 715,
+      "n": 798,
+      "accuracy": 89.59899749373433
+    },
+    {
+      "alpha": 0.25,
+      "correct": 721,
+      "n": 798,
+      "accuracy": 90.35087719298245
+    },
+    {
+      "alpha": 0.5,
+      "correct": 724,
+      "n": 798,
+      "accuracy": 90.72681704260651
+    },
+    {
+      "alpha": 1.0,
+      "correct": 722,
+      "n": 798,
+      "accuracy": 90.47619047619048
+    },
+    {
+      "alpha": 2.0,
+      "correct": 713,
+      "n": 798,
+      "accuracy": 89.3483709273183
+    },
+    {
+      "alpha": 4.0,
+      "correct": 707,
+      "n": 798,
+      "accuracy": 88.59649122807018
+    }
+  ],
+  "selected_config": {
+    "alpha": 0.5,
+    "mask_unparseable": true,
+    "tie_break": "first_candidate"
+  }
+}

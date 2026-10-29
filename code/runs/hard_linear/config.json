@@ -1,0 +1,8 @@
+{
+  "alpha": 0.25,
+  "C": 1.0,
+  "mask_unparseable": true,
+  "tie_break": "first_candidate",
+  "training_subset": "answer_disagreement",
+  "seed": 17
+}

@@ -1,0 +1,42 @@
+{
+  "split": "validation",
+  "correct": 742,
+  "n": 798,
+  "errors": 56,
+  "disagreement_correct": 299,
+  "disagreement_n": 355,
+  "confidence_groups_on_disagreement_questions": [
+    {
+      "group": "lowest_margin",
+      "n": 89,
+      "correct": 58,
+      "accuracy": 65.1685393258427,
+      "minimum_margin": 0.012605520766992062,
+      "maximum_margin": 1.0350339049864554
+    },
+    {
+      "group": "middle_low",
+      "n": 89,
+      "correct": 74,
+      "accuracy": 83.14606741573034,
+      "minimum_margin": 1.0401665408085172,
+      "maximum_margin": 1.9842291609885379
+    },
+    {
+      "group": "middle_high",
+      "n": 89,
+      "correct": 81,
+      "accuracy": 91.01123595505618,
+      "minimum_margin": 1.999308164933781,
+      "maximum_margin": 3.428273686364828
+    },
+    {
+      "group": "highest_margin",
+      "n": 88,
+      "correct": 86,
+      "accuracy": 97.72727272727273,
+      "minimum_margin": 3.4567512100286866,
+      "maximum_margin": 11.969477565305798
+    }
+  ]
+}

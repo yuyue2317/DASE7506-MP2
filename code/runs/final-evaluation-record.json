@@ -1,0 +1,41 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "logical_cpu_count": 32,
+  "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+  "thread_limit": 4,
+  "full_prediction_and_scoring_seconds": 1.0954443000009633,
+  "inference_assets_uncompressed_bytes": 21080,
+  "inference_assets_uncompressed_MiB": 0.02010345458984375,
+  "assets": [
+    {
+      "path": "runs\\fusion\\model.npz",
+      "file_bytes": 21472,
+      "uncompressed_bytes": 20996,
+      "sha256": "3f0cd88d273c8098c881c10dbfd7036e7db2864ac5faf20edc0e6d1397f9d2ce"
+    },
+    {
+      "path": "runs\\fusion\\config.json",
+      "file_bytes": 84,
+      "uncompressed_bytes": 84,
+      "sha256": "19d770610d60cdbdbf1ca23646e54fe9f980d977e3309c1ca919a4a675a602b4"
+    }
+  ],
+  "source_sha256": {
+    "baseline_vote.py": "da21f86ff2469ff9260812cffc7feb427c69829c486c615f764804907c8ae1ce",
+    "train_linear.py": "4bc9f9c6710fea769b57e53b12c1c57de49ebe7321cf70d1ef9e4e0d9108ade5",
+    "linear_selector.py": "217076ca306f3bdc4cafb2d9acdb669fbe3a36d9ae8dd76d2f7e687835b13386",
+    "tune_fusion.py": "46a83e1e84a87e16a8b5d411cd6665f1f1b32c5c900fb1dd1ba5f3a7fc1fac26",
+    "fusion_selector.py": "377287b0b406fe0c5d9271fd24572c05f3aba7759ec8761d8ca98af441f094e7",
+    "evaluate_final.py": "0a562648fb0777145efa3718b792a38ecf6e6b878982035e2f5459283995b570",
+    "requirements-lock.txt": "4613121872c709cabcace1ec357662ba55ee9c6104a945ec7d894249a7396b23"
+  },
+  "score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 360,
+    "n": 467,
+    "accuracy": 77.08779443254818,
+    "scoring_seconds": 0.07815320000008796
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "method": "relative_selector.py",
+  "checkpoint": "runs/relative",
+  "assets": [
+    {
+      "path": "runs/relative/model.npz",
+      "file_bytes": 41952,
+      "uncompressed_bytes": 41476,
+      "sha256": "b38edb7987ef7f75d724dfe7111031b3e9aa9675a732b31e0877d6fc66014f1b"
+    },
+    {
+      "path": "runs/relative/config.json",
+      "file_bytes": 205,
+      "uncompressed_bytes": 205,
+      "sha256": "4d33c0cbebfcb84eb57c6e13f4808a976e5807e386b97e2ddd7f2636b2d7a972"
+    }
+  ],
+  "uncompressed_bytes": 41681
+}

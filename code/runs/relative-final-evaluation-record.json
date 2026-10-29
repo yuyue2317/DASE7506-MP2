@@ -1,0 +1,52 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "logical_cpu_count": 32,
+  "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+  "thread_limit": 4,
+  "config": {
+    "C": 0.001,
+    "alpha": 0.25,
+    "feature_mode": "original_plus_centered",
+    "training_subset": "answer_disagreement",
+    "mask_unparseable": true,
+    "tie_break": "first_candidate",
+    "seed": 17
+  },
+  "full_prediction_and_scoring_seconds": 1.1651251000002958,
+  "inference_assets_uncompressed_bytes": 41681,
+  "inference_assets_uncompressed_MiB": 0.039750099182128906,
+  "assets": [
+    {
+      "path": "runs/relative/model.npz",
+      "file_bytes": 41952,
+      "uncompressed_bytes": 41476,
+      "sha256": "b38edb7987ef7f75d724dfe7111031b3e9aa9675a732b31e0877d6fc66014f1b"
+    },
+    {
+      "path": "runs/relative/config.json",
+      "file_bytes": 205,
+      "uncompressed_bytes": 205,
+      "sha256": "4d33c0cbebfcb84eb57c6e13f4808a976e5807e386b97e2ddd7f2636b2d7a972"
+    }
+  ],
+  "source_sha256": {
+    "relative_selector.py": "5cd3b2576c681a05cc6d9667334dd3fb315add9bc633825e449601050b8b30c6",
+    "fusion_selector.py": "377287b0b406fe0c5d9271fd24572c05f3aba7759ec8761d8ca98af441f094e7",
+    "train_relative.py": "c857a7629ce50576202a2645e89d5813ce01ec275d71e483517131b1f9160f0b",
+    "train_linear.py": "4bc9f9c6710fea769b57e53b12c1c57de49ebe7321cf70d1ef9e4e0d9108ade5",
+    "analyze_difficulty.py": "ee2e4bc798b34a2a5a2eca88c27f097e053c0ba93575fd58b24aa29aa9fdb2bb",
+    "baseline_vote.py": "da21f86ff2469ff9260812cffc7feb427c69829c486c615f764804907c8ae1ce",
+    "linear_selector.py": "217076ca306f3bdc4cafb2d9acdb669fbe3a36d9ae8dd76d2f7e687835b13386",
+    "evaluate_relative.py": "01d266bc8ead7b70fec68137432c8deea10a610bb05df64932a36db06d4ef7d2",
+    "requirements-lock.txt": "4613121872c709cabcace1ec357662ba55ee9c6104a945ec7d894249a7396b23"
+  },
+  "score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 377,
+    "n": 467,
+    "accuracy": 80.72805139186295,
+    "scoring_seconds": 0.06962399999974878
+  }
+}

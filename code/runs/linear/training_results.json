@@ -1,0 +1,36 @@
+{
+  "seed": 17,
+  "sklearn_version": "1.9.1",
+  "selection_split": "validation",
+  "best_C": 0.01,
+  "experiments": [
+    {
+      "C": 0.001,
+      "correct": 706,
+      "n": 798,
+      "accuracy": 88.47117794486215,
+      "iterations": 42
+    },
+    {
+      "C": 0.01,
+      "correct": 712,
+      "n": 798,
+      "accuracy": 89.22305764411027,
+      "iterations": 88
+    },
+    {
+      "C": 0.1,
+      "correct": 712,
+      "n": 798,
+      "accuracy": 89.22305764411027,
+      "iterations": 158
+    },
+    {
+      "C": 1.0,
+      "correct": 709,
+      "n": 798,
+      "accuracy": 88.84711779448621,
+      "iterations": 201
+    }
+  ]
+}

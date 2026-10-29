@@ -1,0 +1,109 @@
+{
+  "final_entry_point": "relative_selector.py",
+  "final_checkpoint": "runs/relative",
+  "final_test": {
+    "correct": 377,
+    "n": 467,
+    "accuracy": 80.72805139186295
+  },
+  "validation": {
+    "vote": {
+      "correct": 688,
+      "n": 798,
+      "accuracy": 86.2155388471178
+    },
+    "linear": {
+      "correct": 712,
+      "n": 798,
+      "accuracy": 89.22305764411027
+    },
+    "fusion": {
+      "correct": 724,
+      "n": 798,
+      "accuracy": 90.72681704260651
+    },
+    "hard-linear": {
+      "correct": 732,
+      "n": 798,
+      "accuracy": 91.72932330827068
+    },
+    "relative": {
+      "correct": 742,
+      "n": 798,
+      "accuracy": 92.98245614035088
+    },
+    "ranker": {
+      "correct": 731,
+      "n": 798,
+      "accuracy": 91.60401002506266
+    },
+    "group-pool": {
+      "correct": 742,
+      "n": 798,
+      "accuracy": 92.98245614035088
+    },
+    "pairwise": {
+      "correct": 740,
+      "n": 798,
+      "accuracy": 92.73182957393483
+    },
+    "mlp": {
+      "correct": 728,
+      "n": 798,
+      "accuracy": 91.2280701754386
+    }
+  },
+  "additional_training_cv": {
+    "group_pool": {
+      "baseline": {
+        "correct": 1699,
+        "n": 2114,
+        "accuracy": 80.36896877956481
+      },
+      "sum": {
+        "correct": 1656,
+        "n": 2114,
+        "accuracy": 78.3349101229896
+      },
+      "mean": {
+        "correct": 1617,
+        "n": 2114,
+        "accuracy": 76.49006622516556
+      }
+    },
+    "pairwise": {
+      "selected_correct": 1704,
+      "n": 2114,
+      "selected_config": {
+        "regularization": 0.01,
+        "alpha": 0.25,
+        "objective": "pairwise_logistic",
+        "features": "original_embeddings",
+        "question_weighting": "equal",
+        "training_subset": "answer_disagreement",
+        "seed": 17,
+        "selection": "three_fold_training_question_cv"
+      }
+    },
+    "mlp": {
+      "selected_correct": 1665,
+      "n": 2114,
+      "selected_config": {
+        "width": 32,
+        "alpha": 0.5,
+        "weight_regularization": 1.0,
+        "feature_mode": "original_plus_centered",
+        "training_subset": "answer_disagreement",
+        "seed": 17,
+        "selection": "three_fold_training_question_cv",
+        "max_iter": 150,
+        "early_stopping": false
+      }
+    }
+  },
+  "additional_search_seconds": {
+    "group_pool": 3.8795851999893785,
+    "pairwise": 5.331643900019117,
+    "mlp": 109.44171829998959
+  }
+}

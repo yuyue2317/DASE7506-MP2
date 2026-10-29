@@ -1,0 +1,11 @@
+{
+  "width": 32,
+  "alpha": 0.5,
+  "weight_regularization": 1.0,
+  "feature_mode": "original_plus_centered",
+  "training_subset": "answer_disagreement",
+  "seed": 17,
+  "selection": "three_fold_training_question_cv",
+  "max_iter": 150,
+  "early_stopping": false
+}
